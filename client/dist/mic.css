@@ -1,0 +1,122 @@
+/* custom css for button */
+/* .hostelList{
+	background-color: #E8A421;
+	position: absolute;
+	right: 5%;
+	top:28.5%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	overflow-y: scroll;
+  
+	width:21.7rem;
+  height: 15rem;
+  border-radius: 1.5rem;
+  transition:ease-in-out ;
+  transition:0.4s;
+  
+  }
+  .mainHostelList{
+   text-align: center;
+   display: flex;
+   flex-direction: row;
+  
+   
+	font-size: 2rem;
+	font-weight: 400;
+	width: 17.0rem;
+  height: 13.7rem;
+  overflow-x:scroll;
+	color:#000000;
+  }
+  .mainHostelList::-webkit-scrollbar {
+	display: none;
+  }
+  .mainHostelList {
+	-ms-overflow-style: none;
+	scrollbar-width: none;  
+  }
+  .mainList{
+	cursor: pointer;
+  } */
+
+
+
+
+
+/* .box {
+	position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.object {
+  display: flex;
+	flex: 0 1 100%;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+
+.outlines{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	border: 4px solid #B5A4A4;
+  animation: pulse 3s;
+	animation-timing-function: ease-out;
+	animation-iteration-count: infinite;
+	position: absolute;
+}
+
+.button {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background: #50CDDD;
+	box-shadow: 0px 0px 4px #0084F9;
+	position: absolute;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+		border: 65px solid #0B3082;
+  }
+  50% {
+		border: solid #A3FFC2;		
+		opacity: 0.8;
+  }
+	
+	 90% {
+    transform: scale(3.2);
+		opacity: 0.2;
+		border: 3px solid #2E3CFF;
+  }
+  100% {
+    transform: scale(3.3);
+		opacity: 0;
+		border: 1px solid #7A89FF;
+  }
+}
+
+#delayed {
+	animation-delay: 1.5s;
+}
+
+#circlein {
+	width: 66.66px;
+	height: 66.66px;
+	border-radius: 50%;
+	background: #6BD6E1;
+	box-shadow: 0px -2px 13px #E0FF94;
+	position: absolute;
+}
+
+.mic-icon {
+	height: 40px;
+	position: absolute;
+	margin: 13.986px;
+} */

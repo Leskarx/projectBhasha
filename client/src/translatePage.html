@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../dist/main.css">
+    <link href="../dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="../dist/utils.css">
+    <link rel="stylesheet" href="../dist/mic.css">
+    <link rel="stylesheet" href="../dist/trans.css">
+</head>
+
+<body class="bg-black flex items-center flex-col justify-center">
+
+
+
+    <section class="w-[90%]  flex flex-col justify-center items-center">
+        <!-- nav section -->
+        <nav class="mt-[3rem] flex w-full justify-between text-[2.2rem]">
+            <div class="text-[2.1rem] ml-[10rem] "><span class="mr-2">Team</span><span class="navBhasha">Bhasha</span>
+            </div>
+
+
+
+
+            <div class="flex flex-row gap-20  mr-[10rem] text-[1.2rem]">
+                <span>About US</span>
+                <span>Usage</span>
+                <span>Contributors</span>
+            </div>
+        </nav>
+
+        <!-- middle section -->
+
+        <section class="w-[90%] flex flex-col justify-center items-center">
+
+            <!-- main section consisting text area and toLang -->
+            <main class="w-[100%] mt-[6rem] relative">
+                <!-- section of original text and Mic -->
+                <div class="flex justify-between mb-8   items-center ">
+                    <p class="text-white text-[1.8rem]  ml-[7rem]">Original text</p>
+
+                    <!-- mic part -->
+                    <i class="overflow-hidden fa-solid fa-microphone text-[3.2rem] ml-[22rem]" id="start" style="color: #25AB75;"></i>
+                   
+                
+
+
+
+
+                    <!-- mis part ends here -->
+
+  <!--Translate and button section -->
+  <section class="TranslateSection  w-[55rem] " >
+    <div class="main">
+        <span class="spanMain">
+            TRANSLATE TO
+
+        </span>
+       
+
+    </div>
+    <div class="insideBox" id="insideBox" >
+        <p  id="mainId" class="pTag" onclick="setLan('hi','Hindi')">hindi</p>
+        <p class="lan pTag" onclick="setLan('gu','Gujrati')">Gujrati</p>
+        <p class="lan2 pTag" onclick="setLan('ta','Tami')">Tamil</p>
+        <p class="lan3 pTag" onclick="setLan('bn','Bengali')">Bengali</p>
+        <p class="lan4 pTag" onclick="setLan('te','Telugu')">Telugu</p>
+        <p class="lan5 pTag" onclick="setLan('mr','Marathi')">Marathi</p>
+    </div>
+
+    
+</section>
+
+<!-- translate and button section ends here    -->
+
+               
+              
+               
+
+
+
+
+
+
+                
+
+
+                </div>
+
+                <div>
+                    <!-- text area -->
+                    <div class="flex flex-row gap-[10rem] ">
+                        <textarea type="text" id="textArea"
+                            class="overflow-hidden outline-none resize-none  bg-white/10 w-[64.6rem] h-[30.1rem] text-[1.8rem] pt-1 tracking-widest"></textarea>
+                        <div id="outputField" class="bg-white/10 w-[64.6rem]    h-[30.1rem]  tracking-widest pt-3 text-[1.8rem] "></div>
+                    </div>
+
+            </main>
+
+            <!-- main section consisting text area and toLang ends here -->
+
+
+            <!-- button section -->
+            <div class=" w-[100%]">
+                <div class="flex justify-center mt-[5rem]">
+                    <button onclick="translatee()" id="translateButton"
+                        class="bg-[#25AB75] active:bg-[#0e764d] text-white text-2xl rounded-lg w-[15.0rem] h-[5.0rem] ">Translate</button>
+                </div>
+
+
+
+            </div>
+
+            <!-- area for meaning -->
+            <div class="w-full mt-[5rem]">
+                <p class="text-white/50 text-1xl">Meaning:</p>
+
+            </div>
+
+
+
+
+        </section>
+
+    </section>
+
+
+
+   
+
+
+
+
+
+    <script src="https://kit.fontawesome.com/c7e2a72ccd.js" crossorigin="anonymous"></script>
+    <script src="../src/script/translate.js"></script>
+    <!-- <script src="../src/script/mic.js"></script> -->
+</body>
+
+</html>

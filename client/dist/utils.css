@@ -1,0 +1,9 @@
+@font-face {
+    font-family: customfont;
+    src:url("./font/SAMAN___.ttf")
+   }
+.navBhasha{
+    font-family:customfont;
+
+
+}

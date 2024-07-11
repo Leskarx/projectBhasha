@@ -1,0 +1,75 @@
+.TranslateSection{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.lan{
+    display: none;
+   
+}
+.lan2 {
+    display: none;
+    
+}
+.lan3 {
+    display: none;
+    
+}
+.lan4 {
+    display: none;
+    
+}
+.lan5{
+    display:none
+}
+.pTag{
+    padding-left: 10px;
+    padding-right: 5px;
+    cursor: pointer;
+
+}
+.spanMain{
+    margin-right:10rem;
+
+}
+.main{
+    font-size:larger;
+    border:none;
+    height: 2.6rem;
+    width: 25rem;
+    border-top-left-radius: 20rem;
+    border-bottom-left-radius: 20rem;
+    /* border-radius: 20rem; */
+    background-color: #25AB75;
+    border-color: #25AB75;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.insideBox{
+    font-size:larger;
+    height: 2.6rem;
+    /* width:6.3rem; */
+    border-top-right-radius: 20rem;
+    border-bottom-right-radius: 20rem;
+    background-color: #25AB75;
+     border:none;
+    border-color: #25AB75;
+    display: flex;
+    gap:5px;
+    color: black;
+    align-items: center;
+    justify-content:space-between;
+    width:6rem;
+    transition:ease-in-out ;
+transition:0.6s;
+    
+    
+    
+    
+}
+#outputField::-webkit-scrollbar {
+    display: none;
+  }
